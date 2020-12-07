@@ -3,7 +3,7 @@ package main.kotlin.day6
 import main.kotlin.utils.Utils
 
 fun main(args: Array<String>) {
-    val puzzle = Utils.readFromFs("/opt/projects/advent_of_code_2020/inputs/day6/input.txt")
+    val puzzle = Utils.readFromFs("/opt/projects/AoC-2020/inputs/day6/input.txt")
 
     val groups = puzzle.split("\n\n")
     var result = 0L
